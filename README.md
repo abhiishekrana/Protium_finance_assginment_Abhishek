@@ -1,111 +1,109 @@
-I have uploaded this full stack project, both the file fronted and backend... Explaination is below.
-# User Analysis Dashboard
+🎯 User Analysis Dashboard
+Overview 📊
+This project showcases a User Analysis Dashboard where users can:
 
-## Overview
-This project is a User Analysis Dashboard that allows users to upload files, apply filters, save configurations, and export data in CSV and JSON formats.
-The application is built with React for the frontend and Node.js with Express for the backend, using MySQL as the database.
+Upload files
+Apply filters
+Save configurations
+Export data in CSV and JSON formats
+The application is built using React for the frontend and Node.js with Express for the backend, with MySQL as the database.
 
----
+📚 Table of Contents
+Technologies Used
+Frontend Setup
+Backend Setup
+MySQL Database Setup
+Libraries and Dependencies
+API Endpoints
+Usage
+Contributing
+💻 Technologies Used
+Frontend: React, CSS, React Toastify, CSV Link
+Backend: Node.js, Express
+Database: MySQL
+⚙️ Frontend Setup
+Clone the Repository:
 
-## Table of Contents
-1. [Technologies Used](#technologies-used)
-2. [Frontend Setup](#frontend-setup)
-3. [Backend Setup](#backend-setup)
-4. [MySQL Database Setup](#mysql-database-setup)
-5. [Libraries and Dependencies](#libraries-and-dependencies)
-6. [API Endpoints](#api-endpoints)
-7. [Usage](#usage)
-8. [Contributing](#contributing)
+bash
+Copy code
+git clone <repo_name>
+cd <repo_name>
+Install dependencies:
 
----
-## Technologies Used
-- **Frontend**: React, CSS, React Toastify, CSV Link
-- **Backend**: Node.js, Express
-- **Database**: MySQL
-
----
-
-## Frontend Setup
-
-1. **Clone the Repository**:
-   ```bash
-   git clone repo_name
-   cd <repo_name>
-   npm install
-   npm start
-   The app will be running on http://localhost:3000
-
-## Backend Setup
-cd <backend-directory>
+bash
+Copy code
 npm install
-DB_HOST=localhost
-DB_USER=<your-database-user>
-DB_PASSWORD=<your-database-password>
-DB_NAME=<your-database-name>
+Run the application:
+
+bash
+Copy code
+npm start
+The app will run on http://localhost:3000.
+
+🔧 Backend Setup
+Navigate to backend directory:
+
+bash
+Copy code
+cd <backend-directory>
+Install backend dependencies:
+
+bash
+Copy code
+npm install
+Set up environment variables:
+
+DB_HOST: localhost
+DB_USER: <your-database-user>
+DB_PASSWORD: <your-database-password>
+DB_NAME: <your-database-name>
+Start the backend server:
+
+bash
+Copy code
 node index.js
+🛢️ MySQL Database Setup
+Create the database:
 
-## MySQL Database Setup
-CREATE DATABASE dashboard_db ;
-Create table dashboard_db;
+sql
+Copy code
+CREATE DATABASE dashboard_db;
+Create necessary tables in the database.
 
+📝 Project Walkthrough
+The project includes both Frontend and Backend steps, covering all aspects in a sequential manner.
 
-**##Project Go though** :
-I have covered all the cases of Frontend and backend in stepwise manner.
-![image](https://github.com/user-attachments/assets/3dd780dc-e9e4-422e-a2b0-26acccfe7455)
-**Demo**
-![image](https://github.com/user-attachments/assets/22ba5714-bcac-404d-8020-9073c58b067f)
+Demo Screenshots
+File Upload & Data Parsing:
 
-**Step1** : 
-**File Upload and Data parsing**
-![image](https://github.com/user-attachments/assets/960a9286-4519-4691-8e49-1fb0a1dc6af5)
-![image](https://github.com/user-attachments/assets/eaa52858-b366-4c76-a357-e61cdbf80020)
+Dynamic Charting with Filters: We can visualize charts with dynamic attributes using React chart libraries.
 
-**Step2** : Dynamic Charting: We can visualize these charts using different attributes by our selection and can use filter, for this i have use react chat library for reactjs.
-![image](https://github.com/user-attachments/assets/ab40d3cd-5975-4bc8-860f-7fb18948b3f3)
+Advanced Filtering:
 
-**Step3** :
-**Using Advanced filters like :**
-o Implement filters for various columns (Date, Region, Product_Type,
-Discount_Percent, Return_Rate, etc.).
-o Charts and data should update in real-time when filters are applied.
+Filters by Date, Region, Product_Type, Discount_Percent, Return_Rate, and more.
+Real-time chart updates.
+User Preferences & Configurations: Save user preferences and filters in the MySQL database.
 
-![image](https://github.com/user-attachments/assets/0e8edc8f-5364-4c36-8f72-986aafeffa63)
+⚙️ Backend Setup Overview
+Create a MySQL database and set up with Express.
+Install necessary libraries like mysql2 for Express.
+📊 API Setup & Data Handling
+Create APIs for setting and getting filtered data.
+Use useEffect and axios to call the APIs in the frontend.
+✨ Step-by-Step Flow
+File Upload and Parsing
 
-**Step4**:
-**User Preferences & Configurations:**
-For this i have fetch all the preferces or filter of the user and save in the mysql database:
-![image](https://github.com/user-attachments/assets/a69473fd-c71d-49fd-bbfa-aa9437f1dcad)
+Users can upload CSV/JSON files.
+Data is parsed and displayed for analysis.
+Dynamic Charting
 
-**Step5**: 
-**Backend**
-Creating a mysql and setup with express install differnt libraries in express like mysql2
-![image](https://github.com/user-attachments/assets/62396b82-fdcf-4194-b036-f9f1da847ad8)
+Visualize data with real-time filters.
+Dynamic updates to charts based on selected attributes.
+Advanced Filtering
 
-**Step6** writing the apis for set and getting the filtered data and calling in the frontend using useEffect and axios
-![image](https://github.com/user-attachments/assets/69d6b676-46e3-44fc-8195-1a529fa5c748)
+Apply various filters to the data.
+Charts and data update in real-time.
+User Preferences
 
-**Step7**
-![image](https://github.com/user-attachments/assets/b836ac18-e8ba-4070-b1da-762d24b9da6f)
-
-![image](https://github.com/user-attachments/assets/ea28cf21-dab7-47c7-8a12-4dce8dc6a7bd)
-
-![image](https://github.com/user-attachments/assets/75bca2a7-0f50-4fa4-9c6f-fbd414353654)
-
-**Step8**:
-![image](https://github.com/user-attachments/assets/de4f0b17-c995-4d23-b887-98e555531e1b)
-![image](https://github.com/user-attachments/assets/3d9c849c-ddba-4952-9e1e-f0038ccf59b6)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Store user configurations in the database.
+Retrieve and apply preferences upon future logins.
