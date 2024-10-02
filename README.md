@@ -1,4 +1,5 @@
 I have uploaded this full stack project, both the file fronted and backend... Explaination is below.
+## Please Check my Updated repo for this Project : [Protium Finance Assignment by Abhishek](https://github.com/abhiishekrana/Protium_finance_assginment_Abhishek/tree/main)
 
 ## User Analysis Dashboard
 🎯
