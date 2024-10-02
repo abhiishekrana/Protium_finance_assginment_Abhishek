@@ -13,10 +13,7 @@ The application is built with React for the frontend and Node.js with Express fo
 2. [Frontend Setup](#frontend-setup)
 3. [Backend Setup](#backend-setup)
 4. [MySQL Database Setup](#mysql-database-setup)
-5. [Libraries and Dependencies](#libraries-and-dependencies)
-6. [API Endpoints](#api-endpoints)
-7. [Usage](#usage)
-8. [Contributing](#contributing)
+
 
 ---
 ## Technologies Used
