@@ -1,6 +1,7 @@
 I have uploaded this full stack project, both the file fronted and backend... Explaination is below.
-##🎯 User Analysis Dashboard
 
+## User Analysis Dashboard
+🎯
 ## Overview
 This project is a User Analysis Dashboard that allows users to upload files, apply filters, save configurations, and export data in CSV and JSON formats.
 The application is built with React for the frontend and Node.js with Express for the backend, using MySQL as the database.
